@@ -1,0 +1,23 @@
+Name: TagImporter
+Type: EthernetIPTagImporter
+OwnerId: ns=2;g=f18f3d9baa0ff5c36164c950c3707e22
+Children:
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Lab Files/Controller Code/BatteryApplication290902V2.ACD"
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 0
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
